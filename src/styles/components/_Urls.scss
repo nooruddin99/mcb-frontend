@@ -1,0 +1,35 @@
+.urls {
+	margin-top: 30px;
+
+	form {
+		.input-container {
+			display: flex;
+			align-items: center;
+			gap: 30px;
+			margin: 10px 0;
+
+			label {
+				width: 60px;
+				text-align: left;
+			}
+
+			input {
+				width: 200px;
+				padding: 5px;
+				border: 1px solid #4caf50;
+				font-size: 16px;
+			}
+		}
+
+		button {
+			width: 300px;
+			margin-top: 15px;
+			padding: 10px 20px;
+			background-color: #4caf50;
+			color: white;
+			border: none;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	}
+}

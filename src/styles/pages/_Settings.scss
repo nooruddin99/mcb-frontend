@@ -1,0 +1,118 @@
+.settings {
+	padding: 30px;
+
+	h2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.avatar-option {
+		padding: 30px 0;
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		border-bottom: 1px solid #949191;
+
+		h3 {
+			margin: 0;
+		}
+	}
+
+	.instruction-messages {
+		padding: 30px 0;
+		border-bottom: 1px solid #949191;
+
+		.heading {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 20px;
+
+			button {
+				width: 200px;
+			}
+		}
+
+		ul {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			list-style: none;
+			gap: 30px;
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: flex;
+				flex-direction: column;
+				width: 300px;
+
+				textarea {
+					height: 150px;
+					padding: 10px;
+				}
+
+				button {
+					background-color: rgb(236, 98, 98);
+				}
+			}
+		}
+
+		button {
+			height: 35px;
+			background: #4caf50;
+			padding: 0 25px;
+			border: none;
+			cursor: pointer;
+			font-size: 14px;
+			font-weight: 500;
+			color: #fff;
+			margin-top: 20px;
+			width: 300px;
+		}
+	}
+
+	.bg-sound {
+		padding: 30px 0;
+		border-bottom: 1px solid #949191;
+	}
+
+	.screen-settings {
+		padding: 30px 0;
+		border-bottom: 1px solid #949191;
+	}
+
+	.coins,
+	.game-play,
+	.date {
+		padding: 30px 0;
+		border-bottom: 1px solid #949191;
+
+		input {
+			width: 300px;
+			padding: 5px;
+			border: 1px solid #4caf50;
+			font-size: 16px;
+		}
+	}
+
+	.submit_settings_btn {
+		height: 45px;
+		background: #4caf50;
+		padding: 0 30px;
+		border: none;
+		cursor: pointer;
+		font-size: 16px;
+		font-weight: bold;
+		float: right;
+		color: #fff;
+		text-transform: uppercase;
+		margin: 30px;
+	}
+}

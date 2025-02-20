@@ -1,0 +1,92 @@
+.screen-questions {
+	.form {
+		.input-container {
+			display: flex;
+			align-items: center;
+			margin: 10px 0;
+
+			label {
+				width: 80px;
+				text-align: right;
+				margin-right: 10px;
+			}
+
+			input {
+				width: 200px;
+				padding: 5px;
+				border: 1px solid #4caf50;
+				font-size: 16px;
+			}
+		}
+		.add-question__btn {
+			width: 300px;
+			margin-top: 15px;
+			padding: 10px 20px;
+			background-color: #4caf50;
+			color: white;
+			border: none;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	}
+
+	.questions-list {
+		margin-top: 20px;
+		width: auto;
+
+		li {
+			list-style: decimal-leading-zero;
+			font-weight: bold;
+			margin-bottom: 30px;
+
+			.list-container {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-end;
+				gap: 30px;
+
+				.question-container {
+					.question {
+						font-size: 16px;
+						font-weight: 500;
+					}
+					.options {
+						font-weight: 400;
+						display: flex;
+						align-items: center;
+						gap: 30px;
+
+						h5 {
+							font-size: 14px;
+							font-weight: 600;
+						}
+
+						.options-container {
+							display: flex;
+							gap: 20px;
+						}
+					}
+				}
+
+				.btns {
+					display: flex;
+					gap: 10px;
+
+					button {
+						width: 70px;
+						height: 40px;
+						background-color: #4caf50;
+						color: white;
+						border: none;
+						font-size: 14px;
+						cursor: pointer;
+
+						&:last-child {
+							background: red;
+						}
+					}
+				}
+			}
+		}
+	}
+}
